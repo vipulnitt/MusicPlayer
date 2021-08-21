@@ -40,6 +40,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.name.setText(data.get(position).getTitle());
+        holder.name.setSelected(true);
         Log.d("vipuldbs",""+data.get(position).getTitle());
         holder.view.setOnClickListener(new View.OnClickListener() {
             @Override
