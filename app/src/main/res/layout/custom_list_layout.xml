@@ -30,7 +30,7 @@
                 android:scrollHorizontally="true"
                 android:singleLine="true"
                 android:text="TextView"
-                android:textAlignment="ce"
+                android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"

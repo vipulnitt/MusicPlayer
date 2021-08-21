@@ -23,7 +23,7 @@ public class MyDbHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         Log.d("vipuldb","Sucessful");
-        String create = "CREATE TABLE "+params.TABLE_NAME + "(" + params.KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT," + params.KEY_DATA + " TEXT(255)," + params.KEY_TITTLE + " TEXT(255)," + params.KEY_ALBUM + " TEXT," + params.KEY_ARTIST + " TEXT)";
+        String create = "CREATE TABLE "+params.TABLE_NAME + "(" + params.KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT," + params.KEY_DATA  + " TEXT(255) PRIMARY KEY," + params.KEY_TITTLE + " TEXT(255)," + params.KEY_ALBUM + " TEXT," + params.KEY_ARTIST + " TEXT)";
         db.execSQL(create);
     }
 
