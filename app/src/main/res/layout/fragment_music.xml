@@ -7,11 +7,11 @@
 
    <androidx.recyclerview.widget.RecyclerView
        android:id="@+id/recycleview"
-       android:layout_width="301dp"
-       android:layout_height="551dp"
+       android:layout_width="353dp"
+       android:layout_height="561dp"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.149"
+       app:layout_constraintHorizontal_bias="0.275"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toTopOf="parent" />
 

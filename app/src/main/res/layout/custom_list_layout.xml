@@ -15,11 +15,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="428dp"
-            android:layout_height="match_parent">
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp">
 
             <TextView
                 android:id="@+id/textView"
